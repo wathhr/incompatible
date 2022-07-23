@@ -1,0 +1,18 @@
+{
+  "name": "Incompatible",
+  "description": "A theme that's incompatible with all your other themes.",
+  "author": "walter",
+  "discord": "wYdxqw5gHB",
+  "version": "2.8.7",
+  "preview": [
+    "https://www.google.com/search?q=troll+face&tbm=isch",
+    "https://duckduckgo.com/?q=troll+face&t=h_&iax=images&ia=images",
+    "https://yandex.com/images/search?text=troll%20face",
+    "https://www.bing.com/images/search?q=troll+face"
+  ],
+
+  "theme": "dist/index.css",
+
+  "license": "GNU GPLv3",
+  "consent": ["ext_listing"]
+}

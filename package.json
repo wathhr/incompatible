@@ -1,0 +1,13 @@
+{
+  "name": "incompatible",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "sass --watch src/index.scss:dist/index.css --no-source-map",
+    "build": "sass src/index.scss:dist/index.css --no-source-map --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

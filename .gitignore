@@ -1,0 +1,13 @@
+# NPM related
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Work In Progress
+DiscordClassChanges/
+scripts/
+src/backend/functions
+
+# Private
+todo*
