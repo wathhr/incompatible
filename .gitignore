@@ -7,7 +7,6 @@ yarn.lock
 # Work In Progress
 DiscordClassChanges/
 scripts/
-src/backend/functions
 
 # Private
 todo*
