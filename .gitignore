@@ -5,8 +5,7 @@ pnpm-lock.yaml
 yarn.lock
 
 # Work In Progress
-DiscordClassChanges/
-scripts/
+*test*
 
 # Private
-todo*
+/**/todo*
