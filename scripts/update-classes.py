@@ -1,15 +1,23 @@
 #!/usr/bin/env python
 
 """
-no idea what like half of this code is
-stole most of it, credit given where due
+No idea what like half of this code is
+I stole most of it, credit given where due
 """
 
+import fnmatch
 import os
-import glob
 import re
 import sys
 import traceback
+
+#  Didn't feel like writing this myself
+#* Credits: https://stackoverflow.com/a/7977340/19634829
+def rglob(rootdir='.', pattern='*'):
+  return [os.path.join(looproot, filename)
+    for looproot, _, filenames in os.walk(rootdir)
+    for filename in filenames
+    if fnmatch.fnmatch(filename, pattern)]
 
 def main():
   if len(sys.argv) < 2:
@@ -23,7 +31,7 @@ def main():
   files = []
   for path in paths:
     if os.path.isdir(path):
-      for file in glob.glob(path + '/**/*', recursive=True):
+      for file in rglob(path, '*'):
         if re.match(file_regex, file):
           files.append(file)
 
